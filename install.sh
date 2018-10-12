@@ -42,6 +42,6 @@ cat switch_lightdark.sh \
     > ~/.rom-cron/themeswitcher.sh
 
 
-mv com.romolo.launched.switchtheme.plist ~/Library/LaunchAgents
+cp com.romolo.launched.switchtheme.plist ~/Library/LaunchAgents
 
 launchctl load -w ~/Library/LaunchAgents/com.romolo.launched.switchtheme.plist
